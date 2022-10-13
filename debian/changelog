@@ -1,0 +1,74 @@
+node-doctrine (3.0.0-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+
+  [ Julien Puydt ]
+  * Fix d/watch.
+  * Bump standards-version to 4.6.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Fri, 27 Aug 2021 14:30:29 +0200
+
+node-doctrine (3.0.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * debian/copyright: use spaces rather than tabs to start continuation
+    lines.
+  * Set upstream metadata fields: Repository, Repository-Browse.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 12
+  * Use pkg-js-tools auto install
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Update upstream/metadata
+  * Use pkg-js-tools auto test
+  * Fix copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 28 Mar 2020 11:35:59 +0100
+
+node-doctrine (3.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Use my debian.org address.
+    - Point Vcs-* fields to salsa.
+    - Bump std-ver to 4.2.1.
+    - Run upstream test suite in autopkgtest.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 13 Nov 2018 09:10:06 +0100
+
+node-doctrine (2.1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Wed, 10 Jan 2018 13:44:12 +0100
+
+node-doctrine (2.0.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Add a patch to make upstream test suite run in autopkgtest.
+  * Run upstream test suite in autopkgtest.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Wed, 29 Nov 2017 06:58:56 +0100
+
+node-doctrine (2.0.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump d/watch to version 4 and std-ver to 4.1.1.
+  * Update d/copyright.
+  * Move from section web to section javascript.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sat, 11 Nov 2017 23:21:34 +0100
+
+node-doctrine (2.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #840925)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Tue, 15 Nov 2016 20:17:11 +0100
